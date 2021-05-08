@@ -26,8 +26,10 @@ class Bassist(Musician):
         super().__init__(name)
         self.machine = "bass"
         self.sound = "bom bom buh bom"
+
+
+
 class Band:
-    instances = []
     def __init__(self, group_name, team_member):
         self.name = group_name
         self.members = team_member
